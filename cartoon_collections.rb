@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
   roll_call = ""
     array.each.with_index do |dwarf, index|
+      binding.pry
     roll_call += "#{index}. #{dwarf} "
   end
   roll_call
