@@ -3,7 +3,7 @@ def roll_call_dwarves(array)
     array.each.with_index do |dwarf, index|
     roll_call = roll_call + "#{index+1}. #{dwarf}"
   end
-  roll_call
+  puts roll_call
 end
 
 def summon_captain_planet(array)
