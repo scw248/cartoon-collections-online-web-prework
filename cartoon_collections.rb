@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(array)
   array.collect do |word|
-    word.upcase + "!"
+    word[0].upcase + "!"
   end
 end
 
