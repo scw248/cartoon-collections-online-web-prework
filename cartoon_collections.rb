@@ -1,3 +1,4 @@
+require "pry"
 def roll_call_dwarves(array)
   roll_call = ""
     array.each.with_index do |dwarf, index|
