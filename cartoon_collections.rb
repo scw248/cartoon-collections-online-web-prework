@@ -15,8 +15,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  result = false
   array.find do |calls|
+    result = false
     calls.length > 4
     result = true
 end
